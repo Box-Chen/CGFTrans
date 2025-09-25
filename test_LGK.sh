@@ -1,0 +1,13 @@
+python main_test.py \
+--image_dir data/LGK/ \
+--ann_path data/LGK/LGK_ann.json \
+--dataset_name LGK \
+--max_seq_length 60 \
+--threshold 3 \
+--batch_size 8 \
+--epochs 1 \
+--save_dir results/LGK \
+--step_size 1 \
+--gamma 0.8 \
+--seed 456789 \
+--load results/LGK/current_checkpoint.pth
